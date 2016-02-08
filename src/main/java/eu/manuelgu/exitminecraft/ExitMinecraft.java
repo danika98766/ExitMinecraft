@@ -20,7 +20,7 @@ public class ExitMinecraft extends JavaPlugin implements CommandExecutor {
             System.out.println("Well, there should be another way to exit the console for you.");
             return true;
         }
-        Bukkit.getPlayer(cs.getName()).kickPlayer("This was not a terminal, but anyways!");
+        Bukkit.getPlayer(cs.getName()).kickPlayer("Peha FUN - Sikeresen kilépték a szerverről!");
         return true;
     }
 
